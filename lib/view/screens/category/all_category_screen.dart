@@ -31,7 +31,7 @@ class _AllCategoryScreenState extends State<AllCategoryScreen> {
     Provider.of<CategoryProvider>(context, listen: false).changeIndex(0, notify: false);
     Provider.of<CategoryProvider>(context, listen: false)
         .getSubCategoryList(context, Provider.of<CategoryProvider>(context, listen: false).categoryList[0].id.toString(),
-      Provider.of<LocalizationProvider>(context, listen: false).locale.languageCode,);
+      Provider.of<LocalizationProvider>(context, listen: false).locale.languageCode);
   }
 
   @override
@@ -87,6 +87,7 @@ class _AllCategoryScreenState extends State<AllCategoryScreen> {
                                         Navigator.of(context).pushNamed(
                                           RouteHelper.getCategoryProductsRouteNew(
                                            id:  categoryProvider.categoryList[categoryProvider.categoryIndex].id,
+                                            subcategoryName: categoryProvider.categoryList[categoryProvider.categoryIndex].name,
                                           ),
                                         );
                                       },

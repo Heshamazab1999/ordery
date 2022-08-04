@@ -4,7 +4,7 @@ import 'images.dart';
 class AppConstants {
   static const String APP_NAME = 'Ordery';
   static const double APP_VERSION = 4.2;
-  static const String BASE_URL = 'https://www.ordery.shop/admin';
+  static const String BASE_URL = 'https://ordezqsa.ordery.shop';
   static const String CONFIG_URI = '/api/v1/config';
   static const String BANNER_URI = '/api/v1/banners';
   static const String CATEGORY_URI = '/api/v1/categories';

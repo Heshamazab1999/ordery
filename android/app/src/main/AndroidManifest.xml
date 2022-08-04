@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ordery">
+    package="com.ordery123456">
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
          In most cases you can leave this as-is, but you if you want to provide
@@ -36,7 +36,7 @@
         tools:targetApi="m">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyD6ToXeb6P0NkorrEh5QOO9C-yydafSo-4" />
+            android:value="AIzaSyC9ZmZTSpnidjssKC22d7tbeNoc36qkn8g" />
 
         <activity
             android:name=".MainActivity"
